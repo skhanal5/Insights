@@ -1,7 +1,18 @@
 # aws-playground
 An assortment of things that I have built using various AWS services for learning purposes
 
-# Lambda-SQS
+# Table of Contents
+
+1. Basic Integrations
+- Lambda-SQS
+- Lambda-API Gateway
+- SQS-SNS
+
+2. Project (To-do)
+
+# Basic Integrations
+
+## Lambda-SQS
 A basic introduction to SQS. 
 So far it does the following:
 - Uses Lambda to connect to an existing SQS client via boto3
