@@ -1,51 +1,19 @@
 # aws-playground
 An assortment of things that I have built using various AWS services for learning purposes
 
-# Table of Contents
-
-1. Basic Integrations
-- Lambda-SQS
-- Lambda-API Gateway
-- SQS-SNS
-
-2. Project (To-do)
-
 # Basic Integrations
-
 ## Lambda-SQS
-A basic introduction to SQS. 
-So far it does the following:
-- Uses Lambda to connect to an existing SQS client via boto3
-- Invokes SendMessage, DeleteMessage, RetrieveMessage, and ChangeVisibilityTimeout API calls to SQS client and responds with those call's respective responses
 
-Note: for Lambda to connect to SQS and invoke these API calls, it will need the proper IAM policies. I'll leave this up to you to configure.
+An introduction to SQS Standard Queues using a Python based Lambda function to populate the queue using boto3 SDK. The lambda function is connected to the SQS queue with basic permissions in its resource policy that allow for CRUD message operations.
 
-Events must be formatted in the following manner for the handler to work as intended:
-- SendMessage event:
-```
-  {
-    "event": "send"
-    "message": <String formatted message>
-  }
-```
-- DeleteMessage event:
-```
-  {
-    "event": "delete"
-    "receiptHandle": <String formatted handle>
-  }
-```
-- ReceiveMessage event:
-```
-  {
-    "event": "receive"
-  }
-```
-- ChangeVisibilityTimeout event:
-```
-  {
-    "event": "change"
-    "receiptHandle":  <String formatted handle>
-    "timeout": <int corresponding to timeout duration>
-  }
-```
+## Lambda-API Gateway REST API
+
+Constructed a REST-API using API Gateway and a Lambda function as a trigger. This is a proxied integration meaning all requests to the designated endpoint in API Gateway will be forwarded to one Lambda function and the Lambda function is responsible for parsing the event contents to output the desired behavior. Utilizes Python to produce the responses.
+
+## DynamoDB-Lambda-API Gateway CRUD REST API
+
+Designed a REST-API using API Gateway and a Lambda function as a trigger like the example above. However, this time I used the boto3 SDK to perform various CRUD operations on a DynamoDB table. 
+
+## SQS-SNS (To-do)
+
+# Project (To-do)
