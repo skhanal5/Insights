@@ -1,7 +1,11 @@
-# aws-playground
-An assortment of things that I have built using various AWS services for learning purposes
+# App Tracker (Project)
 
-# Basic Integrations
+An intuitive job application dashboard that keeps track of all of the jobs that you have applied for. Each application contains metrics and information like the date you have applied, the link to the application, the application status, etc. The underlying backend will be using AWS serverless and cloud technology (TBD which specific services).
+
+# AWS Building Blocks
+
+The integrations below are different AWS integrations/architectures that will be the building blocks for the backend of the application
+
 ## Lambda-SQS
 
 An introduction to SQS Standard Queues using a Python based Lambda function to populate the queue using boto3 SDK. The lambda function is connected to the SQS queue with basic permissions in its resource policy that allow for CRUD message operations.
@@ -13,7 +17,3 @@ Constructed a REST-API using API Gateway and a Lambda function as a trigger. Thi
 ## DynamoDB-Lambda-API Gateway CRUD REST API
 
 Designed a REST-API using API Gateway and a Lambda function as a trigger like the example above. However, this time I used the boto3 SDK to perform various CRUD operations on a DynamoDB table. 
-
-# App Tracker (Project)
-
-An intuitive job application dashboard that keeps track of all of the jobs that you have applied for. Each application contains metrics and information like the date you have applied, the link to the application, the application status, etc. The underlying backend will be using AWS serverless and cloud technology (TBD which specific services).
