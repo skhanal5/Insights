@@ -14,6 +14,6 @@ Constructed a REST-API using API Gateway and a Lambda function as a trigger. Thi
 
 Designed a REST-API using API Gateway and a Lambda function as a trigger like the example above. However, this time I used the boto3 SDK to perform various CRUD operations on a DynamoDB table. 
 
-## SQS-SNS (To-do)
+# App Tracker (Project)
 
-# Project (To-do)
+An intuitive job application dashboard that keeps track of all of the jobs that you have applied for. Each application contains metrics and information like the date you have applied, the link to the application, the application status, etc. The underlying backend will be using AWS serverless and cloud technology (TBD which specific services).
