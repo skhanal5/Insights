@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+ul a{
+  display: block;
+  width: 150px;
+}
