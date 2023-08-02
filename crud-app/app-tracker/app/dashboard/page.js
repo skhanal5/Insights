@@ -1,15 +1,15 @@
-import MainPanel from "./components/mainpanel";
-import Sidebar from "./components/sidebar";
+import MainPanel from "./components/mainpanel.js";
+import SideBar from "./components/sidebar.js";
 
 export default function Dashboard() {
   return (
     <body>
       <main>
         <div className="flex">
-             <Sidebar></Sidebar>
-              <MainPanel></MainPanel>
+          <SideBar></SideBar>
+          <MainPanel></MainPanel>
         </div>
       </main>
     </body>
-  )
+  );
 }

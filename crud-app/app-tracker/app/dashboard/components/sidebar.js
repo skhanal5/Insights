@@ -1,6 +1,6 @@
-import {PaperAirplaneIcon, ChartBarSquareIcon, InformationCircleIcon, ClipboardDocumentListIcon, ArrowUturnLeftIcon, ChartPieIcon, QueueListIcon} from '@heroicons/react/24/outline'
-
-export default function Sidebar() {
+import {ChartBarSquareIcon, InformationCircleIcon, ClipboardDocumentListIcon, ArrowUturnLeftIcon, ChartPieIcon, QueueListIcon} from '@heroicons/react/24/outline'
+import {PaperAirplaneIcon} from '@heroicons/react/24/solid'
+export default function SideBar() {
     return(
         <div className="h-screen w-1/5 py-4 px-2 border border-r border-gray-300 bg-white">
             <div className="flex flex-nowrap flex-col justify-center h-full ml-8 mr-8">
