@@ -9,8 +9,7 @@ export default function MainPanel() {
         <div>
           <h2 className="font-bold text-2xl font-blue-700"> Dashboard </h2>
           <p className="mt-1 text-sm font-light font-gray-100">
-            {" "}
-            Here are some fast insights for your job search.{" "}
+            Here are some fast insights for your job search.
           </p>
         </div>
         <FastMetrics></FastMetrics>
