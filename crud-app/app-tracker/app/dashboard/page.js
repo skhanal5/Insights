@@ -1,5 +1,5 @@
-import MainPanel from "./components/mainpanel.js";
-import SideBar from "./components/sidebar.js";
+import MainPanel from "./components/MainPanel";
+import SideBar from "./components/SideBar";
 
 export default function Dashboard() {
   return (
