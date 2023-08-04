@@ -7,7 +7,7 @@ import {
 
 import { ArrowTrendingUpIcon } from "@heroicons/react/24/solid";
 
-export default function FastMetrics() {
+export default function Insights() {
   return (
     <div className="flex flex-row gap-10 mt-5">
       <div className="bg-white shadow-lg rounded-lg p-5 w-fit">
