@@ -13,7 +13,7 @@ export default function Reminder() {
         />
       </div>
       <div className="flex flex-col flex-wrap p-4 w-52">
-        <h3 className="font-bold text-white"> Recent Tasks </h3>
+        <h3 className="font-bold text-white"> Quick Reminder </h3>
         <p className="text-sm font-light text-white mt-5">
           It has been "X" days since you applied to "Company" on "00/00/0000".
           Double check your application and update your status!
