@@ -7,4 +7,4 @@ An intuitive job application dashboard that keeps track of all of the jobs that 
 - Filter job applications by date applied, status, company
 - Add job applications
 - Update job status (applied, ghosted, rejected, interview, offer)
-- Delete job applications
+- Delete job application
