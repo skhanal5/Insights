@@ -7,18 +7,15 @@ import {
   PencilSquareIcon,
 } from "@heroicons/react/24/outline";
 
-import { EyeIcon} from "@heroicons/react/24/solid";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function SideBar() {
   return (
     <div className="h-screen w-1/6 py-4 px-2 border border-r border-gray-300 bg-white">
-      <div className="flex flex-nowrap flex-col justify-center h-full justify-center items-center gap-5">
-        <div className="flex flex-row mt-5 justify-center items-center">
-          <div className="flex flex-row border border-4 rounded-full bg-blue-600 mr-5 p-0 justify-center items-center">
-            <EyeIcon className="text-white h-4 w-6 inline-block"></EyeIcon>
-          </div>
+      <div className="flex flex-nowrap flex-col h-full gap-5 justify-center items-center">
+        <div className="flex flex-row mt-5 justify-center items-center gap-1">
+          <Image src="/insights.svg" height={40} width={40}></Image>
           <h1 className="text-base font-bold">Insights</h1>
         </div>
         <div className="border-t border-gray-200 border-1 w-full"></div>
@@ -91,7 +88,7 @@ export default function SideBar() {
           </p>
           <Image
             src="/help.svg"
-            className="mt-5"
+            className="mt-5 w-auto h-auto"
             alt="Person giving a helping hand."
             width={100}
             height={300}

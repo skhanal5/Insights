@@ -1,6 +1,5 @@
 import Container from "./components/Container";
 import SideBar from "./components/SideBar";
-import Header from "./components/Header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
