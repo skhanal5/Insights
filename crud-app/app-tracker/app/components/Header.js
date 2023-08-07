@@ -1,4 +1,5 @@
-import { BellIcon } from "@heroicons/react/24/outline";
+import { BellIcon, MoonIcon } from "@heroicons/react/24/outline";
+import { usePathname } from 'next/navigation';
 
 export default function Header({ childComponent }) {
   return (
@@ -11,6 +12,11 @@ export default function Header({ childComponent }) {
           </p>
         </div>
         <div className="flex items-center gap-2">
+          <div className="flex flex-row gap-5 justify-center items-center">
+            <div className="rounded-full hover:bg-blue-200 hover:cursor-pointer h-8 w-8 flex justify-center items-center">
+              <MoonIcon className="h-3/5 w-3/5 inline-block"></MoonIcon>
+            </div>
+          </div>
           <div className="flex flex-row gap-5 justify-center items-center">
             <div className="rounded-full hover:bg-blue-200 hover:cursor-pointer h-8 w-8 flex justify-center items-center">
               <BellIcon className="h-3/5 w-3/5 inline-block"></BellIcon>

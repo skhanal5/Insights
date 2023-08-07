@@ -5,7 +5,7 @@ export default function Reminder() {
       <div className="flex flex-row bg-blue-600 p-5 rounded-lg shadow-lg gap-5 justify-center items-center">
         <div className="flex flex-col gap-5 h-fit">
           <h3 className="font-bold text-white text-sm"> Quick Reminder! </h3>
-          <p className="text-xs font-thin text-white">
+          <p className="text-xs text-white">
             It has been "X" days since you applied to "Company". Send a follow
             up?
           </p>
