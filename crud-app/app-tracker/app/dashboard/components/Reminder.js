@@ -16,7 +16,7 @@ export default function Reminder() {
           </div>
         </div>
         <div>
-          <Image src="/remind.svg" height={300} width={300} />
+          <Image src="/remind.svg" alt="reminder image" height={300} width={300} />
         </div>
       </div>
     </div>
