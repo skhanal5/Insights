@@ -1,11 +1,11 @@
 import TableUtilities from "./components/TableUtilities";
-import CustomTable from "./components/CustomTable";
+import Table from "./components/Table";
 
 export default function Tracker() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col justify-center items-center">
       <TableUtilities></TableUtilities>
-      <CustomTable></CustomTable>
+      <Table></Table>
     </div>
   );
 }
