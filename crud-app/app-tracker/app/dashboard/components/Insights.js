@@ -33,19 +33,19 @@ export default function Insights() {
       stat: -10,
     },
     {
-      name: "Callback Rate",
+      name: "Callbacks",
       icon: (
         <ArrowTrendingUpIcon className="text-blue-700 h-3/5 w-3/5 inline-block"></ArrowTrendingUpIcon>
       ),
-      metric: 50,
+      metric: 15,
       stat: -18,
     },
     {
-      name: "Failure Rate",
+      name: "Rejections",
       icon: (
         <ArrowTrendingDownIcon className="text-blue-700 h-3/5 w-3/5 w-inline-block"></ArrowTrendingDownIcon>
       ),
-      metric: 70,
+      metric: 10,
       stat: 30,
     },
     {
