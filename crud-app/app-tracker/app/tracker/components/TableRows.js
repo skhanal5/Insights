@@ -22,11 +22,11 @@ export default function TableRows() {
   ];
 
   return (
-    <tbody className="divide-y divide-gray-200">
+    <tbody className="mt-1">
       {applications.map((row, rowIndex) => (
         <tr key={rowIndex}>
           {Object.values(headers).map((key, cellIndex) => (
-            <td className="p-5 whitespace-nowrap" key={cellIndex}>{row[key]}</td>
+            <td className="p-5 text-sm whitespace-nowrap text-left" key={cellIndex}>{row[key]}</td>
           ))}
         </tr>
       ))}
