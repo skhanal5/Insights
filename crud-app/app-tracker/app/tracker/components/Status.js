@@ -26,6 +26,10 @@ export default function Status({ status }) {
   } else if (status == "Ghosted") {
     bgColor = "bg-slate-50";
     textColor = "text-slate-500";
+    ringColor = "ring-slate-500/10";
+  } else if (status == "Interview") {
+    bgColor = "bg-blue-50";
+    textColor = "text-blue-500";
     ringColor = "ring-blue-500/10";
   }
 

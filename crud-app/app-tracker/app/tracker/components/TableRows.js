@@ -10,7 +10,7 @@ export default function TableRows() {
       Role: "SWE - Early Career",
       Location: "Chicago, IL",
       Link: "google.com",
-      Date: "123",
+      Date: "08/01/2023",
       Status: "Auto Rejected",
       Notes: "Resume screened",
     },
@@ -19,37 +19,46 @@ export default function TableRows() {
       Role: "Software Development Engineer L4",
       Location: "Seattle, WA",
       Link: "google.com",
-      Date: "123",
+      Date:  "07/05/2023",
       Status: "Offer",
-      Notes: "Resume screened",
+      Notes: "2 Question OA, 1 Virtual Onsite",
     },
     {
       Company: "Two Sigma",
       Role: "Quant Developer",
       Location: "Chicago, IL",
       Link: "google.com",
-      Date: "123",
+      Date:  "07/30/2023",
       Status: "Phone Screen",
-      Notes: "Resume screened",
+      Notes: "C++ Heavy",
     },
     {
       Company: "NSA",
       Role: "Early Career SWE",
       Location: "Fort Meade, MD",
       Link: "google.com",
-      Date: "123",
+      Date: "08/02/2023",
       Status: "Ghosted",
-      Notes: "Resume screened",
+      Notes: "Security Clearance Required",
     },
     {
       Company: "Apple",
-      Role: "Early Career SWE",
+      Role: "SWE - MapKit",
       Location: "Mountain View, CA",
       Link: "google.com",
-      Date: "123",
+      Date: "06/30/2023",
       Status: "Rejected",
-      Notes: "Resume screened",
+      Notes: "Failed Technical Interview",
     },
+    {
+      Company: "Apple",
+      Role: "SWE - WatchOS",
+      Location: "Mountain View, CA",
+      Link: "google.com",
+      Date: "06/30/2023",
+      Status: "Interview",
+      Notes: "Headhunter inquired",
+    }
   ];
 
   return (
@@ -69,7 +78,7 @@ export default function TableRows() {
             } else if (key == "Actions") {
               return (
                 <td
-                  className="p-5 text-sm whitespace-nowrap text-left"
+                  className="p-5 text-sm whitespace-nowrap text-center"
                   key={cellIndex}
                 >
                   {<TableUtilities></TableUtilities>}
