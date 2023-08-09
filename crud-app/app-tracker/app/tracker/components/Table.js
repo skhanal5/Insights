@@ -5,7 +5,7 @@ export default function Table() {
 
   return (
     <div className="bg-white shadow-lg rounded-lg mt-5 p-5">
-      <table className="table-auto">
+      <table>
         <TableHeader></TableHeader>
         <TableRows></TableRows>
       </table>
