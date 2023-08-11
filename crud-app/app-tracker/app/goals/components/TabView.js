@@ -8,9 +8,10 @@ export default function TabView() {
 
     const tabs = [
         { id: 1, title: 'All Tasks', content: 'This is the content of tab 1.' },
-        { id: 2, title: 'In Progress', content: 'This is the content of tab 2.' },
-        { id: 3, title: 'Completed', content: 'This is the content of tab 3.' },
-        { id: 4, title: 'Archived', content: 'This is the content of tab 3.' },
+        { id: 2, title: 'To-do', content: 'This is the content of tab 2.' },
+        { id: 3, title: 'In Progress', content: 'This is the content of tab 2.' },
+        { id: 4, title: 'Completed', content: 'This is the content of tab 3.' },
+        { id: 5, title: 'Overdue', content: 'This is the content of tab 3.' },
     ]
 
     const [activeTab, setActiveTab] = useState(tabs[0]);
