@@ -1,21 +1,21 @@
-import RecentTasks from "./RecentTasks";
+import ProgressCheck from "./ProgressCheck";
 import Reminder from "./Reminder";
 import Insights from "./Insights";
 import Overview from "./Overview";
-import MonthlyMetric from "./MonthlyMetric";
+import GoalCompletion from "./GoalCompletion";
 import Calendar from "./Calendar";
 
 export default function MainPanel() {
   return (
     <div className="h-[calc(80vh)]">
       <Insights></Insights>
-      <div className="flex flex-row gap-10">
+      <div className="flex flex-row h-fit gap-10">
         <Overview></Overview>
-        <MonthlyMetric></MonthlyMetric>
+        <ProgressCheck></ProgressCheck>
       </div>
-      <div className="flex flex-rows gap-10 mt-5">
-        <RecentTasks></RecentTasks>
+      <div className="flex flex-row h-fit gap-10 mt-5">
         <Calendar></Calendar>
+        <GoalCompletion></GoalCompletion>
         <Reminder></Reminder>
       </div>
     </div>
