@@ -9,5 +9,5 @@ An intuitive job application dashboard that keeps track of all of the jobs that 
 - Update job status (applied, ghosted, rejected, interview, offer)
 - Delete job application
 
-## Progress Pictures
+## Visuals
 <img width="1440" alt="Screenshot 2023-08-19 at 11 34 22 PM" src="https://github.com/skhanal5/Insights/assets/74752121/99f1cbb7-2fd9-460c-8041-a45024206995">
